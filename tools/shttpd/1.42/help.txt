@@ -1,0 +1,25 @@
+SHTTPD version 1.42 (c) Sergey Lyubka
+usage: shttpd.exe [options] [config_file]
+  -A <htpasswd_file> <realm> <user> <passwd>
+  -root		Web root directory (default: .)
+  -index_files	Index files (default: index.html,index.htm,index.php,index.cgi)
+  -ssl_cert	SSL certificate file
+  -ports	Listening ports (default: 80)
+  -dir_list	Directory listing (default: yes)
+  -cfg_uri	Config uri
+  -protect	URI to htpasswd mapping
+  -cgi_ext	CGI extensions (default: cgi,pl,php)
+  -cgi_interp	CGI interpreter
+  -cgi_env	Additional CGI env vars
+  -ssi_ext	SSI extensions (default: shtml,shtm)
+  -auth_realm	Authentication domain name (default: mydomain.com)
+  -auth_gpass	Global passwords file
+  -auth_PUT	PUT,DELETE auth file
+  -service	Manage WinNNT service (install|uninstall)
+  -systray	Hide console, show icon on systray (default: no)
+  -access_log	Access log file
+  -error_log	Error log file
+  -mime_types	Additional mime types list
+  -aliases	Path=URI mappings
+  -acl		Allow/deny IP addresses/subnets
+  -threads	Number of worker threads (default: 1)

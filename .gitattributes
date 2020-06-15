@@ -1,0 +1,11 @@
+* text=auto
+
+*.txt text
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.sh  text eol=lf
+*.cgi text eol=lf
+*.pm  text eol=lf
+*.cfg text eol=lf
+
+deps/freecheck/freecheck text eol=lf
